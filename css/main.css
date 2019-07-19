@@ -161,7 +161,7 @@ hr{
   margin: 30px;
   background: white;
   padding: 10px;
-  border: #3a393975 solid 2px !important;
+  border: red solid 2px !important;
   border-radius: 10px;
 }
 .box>.info{
