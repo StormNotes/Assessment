@@ -24,9 +24,22 @@ body{
   margin: auto;
   position: absolute;
   top: 32%;
-  left: 90px;
+  left: 100px;
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
+}
+
+@media (max-width: 900px) {
+  .main-text{
+    color:white;
+  margin: auto;
+  position: absolute;
+  top: 32%;
+  left: 70px;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);  
+  }
+  
 }
 
 .second-text{
@@ -35,11 +48,27 @@ body{
   margin: auto;
   position: absolute;
   top: 75%;  
-  left: 95px;
+  left: 100px;
   height: 70%;
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
 }
+@media (max-width: 900px) {
+  .second-text{
+    color:white;
+    font-size: 14px;
+    margin: auto;
+    position: absolute;
+    top: 75%;  
+    left: 70px;
+    height: 70%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+  
+}
+
+
 .second-text > span{
   font-size: 13px;
   font-weight: 100;
@@ -242,4 +271,11 @@ a:hover{
 }
 .info-footer{  margin: auto;
   width: 70%;
+}
+
+.box3{
+  margin: auto;
+  height:50vh;
+  width: 92%;
+  border-top: rgb(255, 255, 255) solid 1px;
 }
