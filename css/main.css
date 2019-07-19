@@ -275,7 +275,7 @@ a:hover{
 
 .box3{
   margin: auto;
-  height:50vh;
+  height:auto;
   width: 92%;
   border-top: rgb(255, 255, 255) solid 1px;
 }
