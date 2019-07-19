@@ -167,9 +167,7 @@ hr{
 .box>.info{
   margin-top: 30px;
 }
-.move{
-  margin-left: 20px;
-}
+
 
 .boxes-main >.box >p{
   font-weight: 100;
@@ -191,20 +189,40 @@ a:hover{
   margin-top:20px !important;
   background:  rgb(109, 120, 128)  ;
   display: block;  
-  margin: auto;
+  margin: 0 auto;
   width: 90%;
   height: auto;
-  border-radius: 10px;
-  padding-bottom: 20px;
+  border-radius: 10px 10px 0px 0px;
+  padding-bottom: 0px;
   
 }
 .icons{
-  padding: 30px;
-  display: inline-block;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  justify-content:space-between;
 }
-.icons >h3 a> img{
-  height: 30px;
+.icons >div{
+  margin: 44px;  
+  
 }
+
+
+.inline{
+  display: inline;  
+  margin-top:40px;
+  
+}
+
+@media (min-width: 900px) {
+  .inline{
+    display: inline-flex;  
+  }
+  
+}
+
+
 
 
 .a-icon{  margin-top:30px;
@@ -222,7 +240,6 @@ a:hover{
   border:none;
   border-bottom: 1px  #ffffff solid;
 }
-.info-footer{
-  margin: 20px;
-  width: 80%;
+.info-footer{  margin: auto;
+  width: 70%;
 }
