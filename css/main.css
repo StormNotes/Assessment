@@ -143,7 +143,7 @@ body{
 
 hr{
   border:none;
-  border-bottom: 1px #464646d8 solid;
+  border-bottom: 1px #1a1818 solid;
 }
 #line{
   display:table;
@@ -161,7 +161,7 @@ hr{
   margin: 30px;
   background: white;
   padding: 10px;
-  border: #464646d8 solid 2px !important;
+  border: #464646d8 solid 5px !important;
   border-radius: 10px;
 }
 .box>.info{
