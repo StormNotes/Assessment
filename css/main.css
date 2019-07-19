@@ -161,7 +161,7 @@ hr{
   margin: 30px;
   background: white;
   padding: 10px;
-  border: #b3b3b375 solid 1px;
+  border: #3a393975 solid 2px;
   border-radius: 10px;
 }
 .box>.info{
@@ -173,7 +173,7 @@ hr{
 
 .boxes-main >.box >p{
   font-weight: 100;
-  color: #9c9c9c;
+  color: #3a393975;
 }
 
  .third-btn {
